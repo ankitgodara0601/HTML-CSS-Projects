@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+*{
+    color: white;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #e3f2fd;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    max-width: 480px;
+    background-color: black;
+    width: 100%;
+    border-radius: 30px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.company {
+    display: flex;
+    align-items: center;
+}
+
+.company p{
+    font-size: 24px;
+    margin-left: -8px;
+}
+
+.logo {
+    width: 120px;
+    border-radius: 25px;
+    margin-left: -20px;
+}
+
+.chip {
+    width: 80px;
+}
+
+.card-number{
+    display: grid;
+    margin-top: 20px;
+}
+
+.card-number .card-text{
+    font-size: 16px;
+}
+
+.card-number .number{
+    margin-top: 5px;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+.holder-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 5px;
+}
+
+.holder-info .name{ 
+    font-size: 20px;
+}
+
+.holder-info .valid{
+    display: grid;
+    align-items: center;
+}
+
+.valid-date{
+    font-size: 20px;
+    margin-top: 6px;
+}
